@@ -8,13 +8,13 @@ class Snake: SKShapeNode {
     var angel = 0.0
 
     var body = [snakeBodyPart]()
+    
+    
     convenience init(atPoint point: CGPoint) {
         self.init()
         
         let head = snakeHead(atPoint: point)
-        
         body.append(head)
-        
         addChild(head)
     }
     
@@ -24,6 +24,9 @@ class Snake: SKShapeNode {
         addChild(newBodyPart)
     }
     
+    func removeBodyPart(){
+        body.removeAll()
+    }
     
     func move() {
         

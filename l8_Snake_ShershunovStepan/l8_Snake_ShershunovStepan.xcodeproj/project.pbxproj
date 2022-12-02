@@ -17,6 +17,7 @@
 		7F53BF6A29362F0A0073C331 /* snakeBodyPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F53BF6929362F0A0073C331 /* snakeBodyPart.swift */; };
 		7F53BF6C293631C90073C331 /* snakeHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F53BF6B293631C90073C331 /* snakeHead.swift */; };
 		7F53BF6E293633620073C331 /* snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F53BF6D293633620073C331 /* snake.swift */; };
+		7FE20916293A60E80089113E /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE20915293A60E80089113E /* Border.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		7F53BF6929362F0A0073C331 /* snakeBodyPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snakeBodyPart.swift; sourceTree = "<group>"; };
 		7F53BF6B293631C90073C331 /* snakeHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snakeHead.swift; sourceTree = "<group>"; };
 		7F53BF6D293633620073C331 /* snake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snake.swift; sourceTree = "<group>"; };
+		7FE20915293A60E80089113E /* Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +65,11 @@
 		7F53BF4F2935DFC60073C331 /* l8_Snake_ShershunovStepan */ = {
 			isa = PBXGroup;
 			children = (
+				7FE20915293A60E80089113E /* Border.swift */,
+				7F53BF67293627BB0073C331 /* Apple.swift */,
 				7F53BF6D293633620073C331 /* snake.swift */,
 				7F53BF6B293631C90073C331 /* snakeHead.swift */,
 				7F53BF6929362F0A0073C331 /* snakeBodyPart.swift */,
-				7F53BF67293627BB0073C331 /* Apple.swift */,
 				7F53BF502935DFC60073C331 /* AppDelegate.swift */,
 				7F53BF562935DFC60073C331 /* GameScene.swift */,
 				7F53BF582935DFC60073C331 /* GameViewController.swift */,
@@ -153,6 +156,7 @@
 				7F53BF592935DFC60073C331 /* GameViewController.swift in Sources */,
 				7F53BF6E293633620073C331 /* snake.swift in Sources */,
 				7F53BF6A29362F0A0073C331 /* snakeBodyPart.swift in Sources */,
+				7FE20916293A60E80089113E /* Border.swift in Sources */,
 				7F53BF6C293631C90073C331 /* snakeHead.swift in Sources */,
 				7F53BF512935DFC60073C331 /* AppDelegate.swift in Sources */,
 			);

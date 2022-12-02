@@ -10,7 +10,7 @@ class snakeHead: snakeBodyPart {
         self.physicsBody?.categoryBitMask = collisionCategory.SnakeHead
         
         //  с кем сталкивается
-        self.physicsBody?.contactTestBitMask = collisionCategory.EdgeBody | collisionCategory.Snake | collisionCategory.Apple
+        self.physicsBody?.contactTestBitMask =  collisionCategory.Snake | collisionCategory.Apple | collisionCategory.Border
         
     }
     

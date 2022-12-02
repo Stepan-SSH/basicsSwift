@@ -1,5 +1,3 @@
-
-
 import UIKit
 import SpriteKit
 import GameplayKit
@@ -15,7 +13,7 @@ class GameViewController: UIViewController {
 
         
         let scene = GameScene(size: view.bounds.size)
-                        
+        
         let skView = view as! SKView // приводим к типу
         
         // skView  - описания настроек экрана и отображаемых параметров
@@ -29,6 +27,8 @@ class GameViewController: UIViewController {
         scene.scaleMode = .resizeFill
         // передаем сцену на экран
         skView.presentScene(scene)
+        
+      
     }
 
     override var prefersStatusBarHidden: Bool {
